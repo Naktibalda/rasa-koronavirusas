@@ -1,51 +1,27 @@
 #### This file contains tests to evaluate that your bot behaves as expected.
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/user-guide/testing-your-assistant/
 
-## happy path 1
-* greet: hello there!
-  - utter_greet
-* mood_great: amazing
-  - utter_happy
 
-## happy path 2
-* greet: hello there!
-  - utter_greet
-* mood_great: amazing
-  - utter_happy
-* goodbye: bye-bye!
-  - utter_goodbye
+* pasisveikinimas: Labas
+  - utter_pasisveikinimas
 
-## sad path 1
-* greet: hello
-  - utter_greet
-* mood_unhappy: not good
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm: yes
-  - utter_happy
+* atsisveikinimas: Ate!
+  - utter_atsisveikinimas
 
-## sad path 2
-* greet: hello
-  - utter_greet
-* mood_unhappy: not good
-  - utter_cheer_up
-  - utter_did_that_help
-* deny: not really
-  - utter_goodbye
+* ar_tu_botas: Ar tu robotė?
+  - utter_ar_tu_botas
 
-## sad path 3
-* greet: hi
-  - utter_greet
-* mood_unhappy: very terrible
-  - utter_cheer_up
-  - utter_did_that_help
-* deny: no
-  - utter_goodbye
+* kas_yra_koronovirusas: Kas tas virusas?
+  - utter_kas_yra_koronovirusas
 
-## say goodbye
-* goodbye: bye-bye!
-  - utter_goodbye
+* kaip_uzsikreciama: Kaip galima užsikrėsti?
+  - utter_kaip_uzsikreciama
 
-## bot challenge
-* bot_challenge: are you a bot?
-  - utter_iamabot
+* kokie_simptomai: Kokie viruso simptomai?
+  - utter_kokie_simptomai
+
+* vakcina: Ar yra skiepas?
+  - utter_vakcina
+
+* kaip_apsisaugoti: Kaip saugotis viruso?
+  - utter_kaip_apsisaugoti

@@ -1,32 +1,37 @@
 intents:
   - pasisveikinimas
+  - atsisveikinimas
+  - ar_tu_botas
   - kas_yra_koronovirusas
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - kaip_uzsikreciama
+  - kokie_simptomai
+  - vakcina
+  - kaip_apsisaugoti
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_pasisveikinimas:
+  - text: "Labas!"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_atsisveikinimas:
+  - text: "Iki!"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_kas_yra_koronovirusas:
+  - text: "Koronavirusai – tai didelė grupė virusų, kurie gali sukelti įvairias ligas. Dažniausiai koronavirusai sukelia lengvas ar net besimptomes infekcijas, tačiau gali sukelti ir sunkias kvėpavimo takų infekcijas, tokias kaip Artimųjų Rytų respiracinio sindromo (ARRS) ar sunkaus ūminio respiracinio sindromo (SŪRS) koronavirusines infekcijas."
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_kaip_uzsikreciama:
+  - text: "Virusas plinta per orą kvėpavimo takų sekretų lašeliais, kuriuos žmonės išskiria į aplinką čiaudėdami, kosėdami ar iškvėpdami. Tokiu atveju tarp žmonių būtinas gana artimas kontaktas (manoma, kad ne didesnis nei 2 metrai). Teigiama, kad tai yra pagrindinis infekcijos plitimo būdas. Užsikrėsti įmanoma ir liečiant įvairius aplinkos daiktus, kurie yra užteršti COVID-19 (pavyzdžiui, sergantysis nusičiaudėjo neužsidengęs ir lašeliai nusėdo ant stalo ar kitų paviršių). Sveikas asmuo palietęs tokį paviršių, o vėliau nešvariomis rankomis pasitrynęs akis ar pasikrapštęs nosį gali užsikrėsti"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_kokie_simptomai:
+  - text: "Simptomai yra panašūs į gripą – karščiavimas, kosulys, dusulys ir kiti kvėpavimo sutrikimai. Sunkesniais atvejais sukelia plaučių uždegimą, sepsį ir septinį šoką, inkstų nepakankamumą ar mirtį."
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_vakcina:
+  - text: "Naujasis koronavirusas yra naujos struktūros koronavirusas, kuris niekada anksčiau nebuvo sukėlęs susirgimų žmonėms. Šiuo metu mokslininkai aktyviai siekia sukurti vakciną nuo šios infekcijos."
+
+  utter_kaip_apsisaugoti:
+  - text: "Rekomenduojama laikytis standartinių ligos plitimą mažinančių priemonių: dažnai plauti rankas su šiltu vandeniu ir muilu, neliesti rankomis veido ir akių, laikytis kosėjimo, čiaudėjimo etiketo (kosėti ar čiaudėti prisidengus vienkartine servetėle arba į sulenktos alkūnės vidinę pusę), laikytis saugaus maisto ruošimo (ypač naudojant termiškai neapdorotą mėsą, kiaušinius), vengti artimo sąlyčio su visais, kam yra pasireiškę kvėpavimo takų ligos simptomai, pavyzdžiui, kosulys, čiaudulys."
+
+  utter_ar_tu_botas:
+  - text: "Taip, aš esu pokalbių robotas, galiu atsakyti Jūsų klausimus apie koronavirusą"
 
 session_config:
   session_expiration_time: 60

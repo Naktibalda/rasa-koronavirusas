@@ -1,54 +1,48 @@
+
 ## intent:kas_yra_koronovirusas
-- Kas yra koronavirusai?
-- Kas tas virusas?
-- Papasakok apie koronavirusą
-- Koronavirusas
+- kas yra koronavirusai?
+- kas tas virusas?
+- papasakok apie koronavirusą
+- koronavirusas
 
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+## intent:kaip_uzsikreciama
+- kaip žmogus gali užsikrėsti koronavirusu?
+- kaip užsikrečiama virusu?
+- kaip plinta virusas?
+- kaip jis plinta?
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+## intent:kokie_simptomai
+- kokie koronaviruso simptomai?
+- kokie šio ligos požymiai?
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
+## intent:vakcina
+- ar yra vakcina nuo koronaviruso?
+- ar galima pasiskiepyti?
+- antivirusas
 
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+## intent:kaip_apsisaugoti
+- kaip galima apsisaugot nuo koronavirusinių infekcijų?
+- kaip saugotis?
+- kaip išvengti koronaviruso?
+- apsaugos priemonės
 
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## intent:pasisveikinimas
+- labas
+- labas rytas
+- labas vakaras
+- laba diena
+- sveiki!
+
+## intent:atsisveikinimas
+- iki
+- ate
+- viso gero
+- sudie
+- labanakt
+- geros dienos
+
+## intent:ar_tu_botas
+- ar tu robotas?
+- ar tu botas
+- chatbot

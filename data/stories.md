@@ -1,31 +1,26 @@
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
+## pasisveikinimas
+* pasisveikinimas
+  - utter_pasisveikinimas
+## atsisveikinimas
+* atsisveikinimas
+  - utter_atsisveikinimas
+## ar_tu_botas
+* ar_tu_botas
+  - utter_ar_tu_botas
+## kas_yra_koronovirusas
+* kas_yra_koronovirusas
+  - utter_kas_yra_koronovirusas
+## kaip_uzsikreciama
+* kaip_uzsikreciama
+  - utter_kaip_uzsikreciama
+## kokie_simptomai
+* kokie_simptomai
+  - utter_kokie_simptomai
+## vakcina
+* vakcina
+  - utter_vakcina
+## kaip_apsisaugoti
+* kaip_apsisaugoti
+  - utter_kaip_apsisaugoti
 
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
-
-## say goodbye
-* goodbye
-  - utter_goodbye
-
-## bot challenge
-* bot_challenge
-  - utter_iamabot
