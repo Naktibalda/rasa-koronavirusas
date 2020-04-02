@@ -1,4 +1,3 @@
-
 ## intent:kas_yra_koronovirusas
 - kas yra koronavirusai?
 - kas tas virusas?
@@ -11,10 +10,10 @@
 - kaip plinta virusas?
 - kaip jis plinta?
 
-
 ## intent:kokie_simptomai
 - kokie koronaviruso simptomai?
 - kokie šio ligos požymiai?
+- ar aš sergu?
 
 ## intent:vakcina
 - ar yra vakcina nuo koronaviruso?
